@@ -1,9 +1,20 @@
 Purpose:
-Calculating tournament (binary) Tree.
+Calculating tournament (binary) Tree depth as theoretical answer to 
+the number of matches required for a tennis tournament.
+
+Why created: a recruiter asked me to write this in a very short amount of time over email.  I did it afterward just for fun and especially in Ruby; I also wanted to see how short and sweet this would be using the binary tree depth idea.
 
 Files:
 tree_depth.rb - the file that has object-oriented (class) implementation
 find_tree_depth.rb - the test script file (Testbench, main file to exec)
+
+Requirement:
+Ruby 1.9.3 ( developed using 1.9.3-p125 ) - function specific to 1.9.3:
+	Math.log2  - take a log (with base of 2) of some number.
+
+To Do:
+I really wanted a way of visualizing the Binary tree external nodes;
+I searched online but found out there are problems with most results I found. Either scope problem (not sure if due to 1.9.3) or execution time problem (Graphviz would complain about add_node deprecated, use add_nodes).  So, I might just use a gem that I found. 
 
 Joseph Sung 
 @Alhambra, CA
