@@ -1,0 +1,9 @@
+Purpose:
+Calculating tournament (binary) Tree.
+
+Files:
+tree_depth.rb - the file that has object-oriented (class) implementation
+find_tree_depth.rb - the test script file (Testbench, main file to exec)
+
+Joseph Sung 
+@Alhambra, CA
